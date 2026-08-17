@@ -1,79 +1,517 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="KawsayEc - Centro Andino de Capacitación">
-<title>Ecosistema Digital | KawsayEc</title>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-<header>
-<nav class="navbar container">
-  <a class="logo" href="index.html" aria-label="KawsayEc inicio">
-    <span class="logo-mark">K</span>
-    <span>KAWSAY<small>Centro Andino de Capacitación</small></span>
-  </a>
-  <button class="menu-btn" aria-label="Abrir menú" aria-expanded="false">☰</button>
-  <ul class="nav-links">
-    <li><a href="index.html">¿Quiénes somos?</a></li>
-    <li><a href="oferta-academica.html">Oferta Académica</a></li>
-    <li><a href="publicaciones-eventos.html">Publicaciones y eventos</a></li>
-    <li><a href="ecosistema-digital.html">Ecosistema Digital</a></li>
-    <li><a href="contactos.html">Contactos</a></li>
-  </ul>
-</nav>
-</header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<section class="page-hero">
-  <div class="container">
-    <span class="eyebrow">Conectividad</span>
-    <h1>Ecosistema Digital</h1>
-    <p>Un punto de acceso a las herramientas digitales que acompañan la formación y comunicación de KawsayEc.</p>
-  </div>
-</section>
-<div class="pattern"></div>
+    <meta
+      name="description"
+      content="KawsayEc - Centro Andino de Capacitación"
+    />
 
-<section class="section">
-  <div class="container">
-    <div class="section-title reveal">
-      <span class="eyebrow">Recursos</span>
-      <h2>Todo conectado</h2>
-      <p>Estos espacios pueden enlazarse posteriormente a las plataformas reales de KawsayEc.</p>
-    </div>
-    <div class="grid grid-3">
-      <article class="digital reveal"><h3>Aula Virtual</h3><p>Acceso a cursos, materiales, actividades y evaluaciones.</p><a href="contactos.html">Solicitar acceso →</a></article>
-      <article class="digital reveal"><h3>Biblioteca Digital</h3><p>Recursos, guías, lecturas y materiales complementarios.</p><a href="contactos.html">Conocer recursos →</a></article>
-      <article class="digital reveal"><h3>Comunidad</h3><p>Canales para mantenernos conectados y compartir oportunidades.</p><a href="contactos.html">Conectar →</a></article>
-      <article class="digital reveal"><h3>Certificados</h3><p>Consulta y gestión de procesos de certificación.</p><a href="contactos.html">Consultar →</a></article>
-      <article class="digital reveal"><h3>Noticias</h3><p>Convocatorias, novedades y actualizaciones de KawsayEc.</p><a href="publicaciones-eventos.html">Ver publicaciones →</a></article>
-      <article class="digital reveal"><h3>Soporte</h3><p>Orientación para acceder a las plataformas y cursos.</p><a href="contactos.html">Pedir ayuda →</a></article>
-    </div>
-  </div>
-</section>
+    <title>Ecosistema Digital | KawsayEc</title>
 
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<footer>
-  <div class="container footer-grid">
-    <div>
-      <h3>KAWSAYEC</h3>
-      <p>Centro Andino de Capacitación. Formación, saberes y oportunidades para el desarrollo de nuestras comunidades.</p>
-    </div>
-    <div>
-      <h4>Navegación</h4>
-      <p><a href="index.html">¿Quiénes somos?</a></p>
-      <p><a href="oferta-academica.html">Oferta Académica</a></p>
-      <p><a href="publicaciones-eventos.html">Publicaciones y eventos</a></p>
-    </div>
-    <div>
-      <h4>Conecta</h4>
-      <p><a href="ecosistema-digital.html">Ecosistema Digital</a></p>
-      <p><a href="contactos.html">Contactos</a></p>
-    </div>
-  </div>
-  <div class="container copyright">© <span id="year"></span> KawsayEc. Todos los derechos reservados.</div>
-</footer>
+  <body>
+    <!-- ================= HEADER ================= -->
 
-<script src="js.js"></script>
-</body>
+    <header>
+      <nav class="navbar container">
+        <a class="logo" href="index.html" aria-label="KawsayEc inicio">
+          <span
+            style="
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              width: 100px;
+              height: 100px;
+              background: white;
+              border-radius: 50%;
+              overflow: hidden;
+            "
+          >
+            <img
+              src="kawsay logo.jpg"
+              alt="Logo KawsayEc"
+              width="90"
+              style="display: block; object-fit: contain"
+            />
+          </span>
+        </a>
+
+        <span>
+          KAWSAY
+          <small>Centro Andino de Capacitación</small>
+        </span>
+
+        <button class="menu-btn" aria-label="Abrir menú" aria-expanded="false">
+          ☰
+        </button>
+
+        <ul class="nav-links">
+          <li>
+            <a href="index.html"> ¿Quiénes somos? </a>
+          </li>
+
+          <li>
+            <a href="oferta-academica.html"> Oferta Académica </a>
+          </li>
+
+          <li>
+            <a href="publicaciones-eventos.html"> Publicaciones y eventos </a>
+          </li>
+
+          <li>
+            <a href="ecosistema-digital.html"> Ecosistema Digital </a>
+          </li>
+
+          <li>
+            <a href="contactos.html"> Contactos </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow"> Conectividad </span>
+
+        <h1>Ecosistema Digital</h1>
+
+        <p>
+          Un punto de acceso a las herramientas digitales que acompañan la
+          formación y comunicación de KawsayEc.
+        </p>
+      </div>
+    </section>
+
+    <div class="pattern"></div>
+
+    <!-- ================= RECURSOS ================= -->
+
+    <section class="section">
+      <div class="container">
+        <div class="section-title reveal">
+          <span class="eyebrow"> Recursos </span>
+
+          <h2>Todo conectado</h2>
+
+          <p>
+            Estos espacios pueden enlazarse posteriormente a las plataformas
+            reales de KawsayEc.
+          </p>
+        </div>
+
+        <div class="grid grid-3">
+          <article class="digital reveal">
+            <h3>Aula Virtual</h3>
+
+            <p>Acceso a cursos, materiales, actividades y evaluaciones.</p>
+
+            <a href="contactos.html"> Solicitar acceso → </a>
+          </article>
+
+          <article class="digital reveal">
+            <h3>Biblioteca Digital</h3>
+
+            <p>Recursos, guías, lecturas y materiales complementarios.</p>
+
+            <a href="contactos.html"> Conocer recursos → </a>
+          </article>
+
+          <article class="digital reveal">
+            <h3>Comunidad</h3>
+
+            <p>
+              Canales para mantenernos conectados y compartir oportunidades.
+            </p>
+
+            <a href="contactos.html"> Conectar → </a>
+          </article>
+
+          <article class="digital reveal">
+            <h3>Certificados</h3>
+
+            <p>Consulta y gestión de procesos de certificación.</p>
+
+            <a href="contactos.html"> Consultar → </a>
+          </article>
+
+          <article class="digital reveal">
+            <h3>Noticias</h3>
+
+            <p>Convocatorias, novedades y actualizaciones de KawsayEc.</p>
+
+            <a href="publicaciones-eventos.html"> Ver publicaciones → </a>
+          </article>
+
+          <article class="digital reveal">
+            <h3>Soporte</h3>
+
+            <p>Orientación para acceder a las plataformas y cursos.</p>
+
+            <a href="contactos.html"> Pedir ayuda → </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= REDES SOCIALES ================= -->
+
+    <section class="section alt">
+      <div class="container">
+        <div class="section-title reveal">
+          <span class="eyebrow"> Comunidad Kawsay </span>
+
+          <h2>Síguenos en nuestras redes</h2>
+
+          <p>
+            Conecta con KawsayEc, descubre nuestras actividades, contenidos,
+            eventos y nuevas oportunidades de formación.
+          </p>
+        </div>
+
+        <div
+          class="social-grid"
+          style="
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1.5rem;
+            max-width: 1000px;
+            margin: 0 auto;
+          "
+        >
+          <!-- YOUTUBE -->
+
+          <a
+            href="#"
+            class="social-card reveal"
+            aria-label="KawsayEc en YouTube"
+            style="
+              text-decoration: none;
+              color: inherit;
+              text-align: center;
+              padding: 2rem 1rem;
+              border-radius: 16px;
+              background: white;
+              transition:
+                transform 0.3s ease,
+                box-shadow 0.3s ease;
+            "
+          >
+            <div
+              style="
+                width: 64px;
+                height: 64px;
+                margin: 0 auto 1rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+            >
+              <svg
+                viewBox="0 0 24 24"
+                width="56"
+                height="56"
+                fill="currentColor"
+                aria-hidden="true"
+              >
+                <path
+                  d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8ZM9.6 15.6V8.4l6.4 3.6-6.4 3.6Z"
+                />
+              </svg>
+            </div>
+
+            <h3>YouTube</h3>
+
+            <p>Videos y contenidos</p>
+          </a>
+
+          <!-- SPOTIFY -->
+
+          <a
+            href="#"
+            class="social-card reveal"
+            aria-label="KawsayEc en Spotify"
+            style="
+              text-decoration: none;
+              color: inherit;
+              text-align: center;
+              padding: 2rem 1rem;
+              border-radius: 16px;
+              background: white;
+              transition:
+                transform 0.3s ease,
+                box-shadow 0.3s ease;
+            "
+          >
+            <div
+              style="
+                width: 64px;
+                height: 64px;
+                margin: 0 auto 1rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+            >
+              <svg
+                viewBox="0 0 24 24"
+                width="56"
+                height="56"
+                fill="currentColor"
+                aria-hidden="true"
+              >
+                <path
+                  d="M12 1.9A10.1 10.1 0 1 0 22.1 12 10.1 10.1 0 0 0 12 1.9Zm4.64 14.57a.8.8 0 0 1-1.1.27c-3.02-1.85-6.83-2.27-11.32-1.24a.8.8 0 1 1-.36-1.56c4.91-1.12 9.12-.64 12.52 1.44a.8.8 0 0 1 .26 1.09Zm1.48-3.28a1 1 0 0 1-1.37.33c-3.46-2.13-8.74-2.75-12.84-1.5a1 1 0 1 1-.58-1.91c4.68-1.42 10.51-.73 14.5 1.72a1 1 0 0 1 .29 1.36Zm.13-3.42C14.1 7.46 7.38 7.27 3.67 8.4a1.2 1.2 0 1 1-.7-2.3c4.26-1.29 11.34-1.04 15.65 1.52a1.2 1.2 0 0 1-.37 2.15Z"
+                />
+              </svg>
+            </div>
+
+            <h3>Spotify</h3>
+
+            <p>Podcasts y audio</p>
+          </a>
+
+          <!-- TIKTOK -->
+
+          <a
+            href="#"
+            class="social-card reveal"
+            aria-label="KawsayEc en TikTok"
+            style="
+              text-decoration: none;
+              color: inherit;
+              text-align: center;
+              padding: 2rem 1rem;
+              border-radius: 16px;
+              background: white;
+              transition:
+                transform 0.3s ease,
+                box-shadow 0.3s ease;
+            "
+          >
+            <div
+              style="
+                width: 64px;
+                height: 64px;
+                margin: 0 auto 1rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+            >
+              <svg
+                viewBox="0 0 24 24"
+                width="56"
+                height="56"
+                fill="currentColor"
+                aria-hidden="true"
+              >
+                <path
+                  d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.9 2.9 0 1 1-2.9-2.9c.3 0 .6.05.87.13V9.4a6.4 6.4 0 1 0 5.48 6.27V8.73a8.25 8.25 0 0 0 4.82 1.55V6.84a4.8 4.8 0 0 1-1.05-.15Z"
+                />
+              </svg>
+            </div>
+
+            <h3>TikTok</h3>
+
+            <p>Contenido y tendencias</p>
+          </a>
+
+          <!-- INSTAGRAM -->
+
+          <a
+            href="#"
+            class="social-card reveal"
+            aria-label="KawsayEc en Instagram"
+            style="
+              text-decoration: none;
+              color: inherit;
+              text-align: center;
+              padding: 2rem 1rem;
+              border-radius: 16px;
+              background: white;
+              transition:
+                transform 0.3s ease,
+                box-shadow 0.3s ease;
+            "
+          >
+            <div
+              style="
+                width: 64px;
+                height: 64px;
+                margin: 0 auto 1rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+            >
+              <svg
+                viewBox="0 0 24 24"
+                width="56"
+                height="56"
+                fill="currentColor"
+                aria-hidden="true"
+              >
+                <path
+                  d="M7.8 2h8.4A5.8 5.8 0 0 1 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8A5.8 5.8 0 0 1 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2Zm-.2 2A3.6 3.6 0 0 0 4 7.6v8.8A3.6 3.6 0 0 0 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6A3.6 3.6 0 0 0 16.4 4H7.6Zm8.9 1.5a1.35 1.35 0 1 1 0 2.7 1.35 1.35 0 0 1 0-2.7ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z"
+                />
+              </svg>
+            </div>
+
+            <h3>Instagram</h3>
+
+            <p>Fotos y novedades</p>
+          </a>
+
+          <!-- FACEBOOK -->
+
+          <a
+            href="#"
+            class="social-card reveal"
+            aria-label="KawsayEc en Facebook"
+            style="
+              text-decoration: none;
+              color: inherit;
+              text-align: center;
+              padding: 2rem 1rem;
+              border-radius: 16px;
+              background: white;
+              transition:
+                transform 0.3s ease,
+                box-shadow 0.3s ease;
+            "
+          >
+            <div
+              style="
+                width: 64px;
+                height: 64px;
+                margin: 0 auto 1rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+            >
+              <svg
+                viewBox="0 0 24 24"
+                width="56"
+                height="56"
+                fill="currentColor"
+                aria-hidden="true"
+              >
+                <path
+                  d="M13.5 22v-8h2.7l.4-3h-3.1V9.1c0-.87.24-1.46 1.5-1.46h1.7V5a22 22 0 0 0-2.48-.13c-2.46 0-4.14 1.5-4.14 4.27V11H7.3v3h2.78v8h3.42Z"
+                />
+              </svg>
+            </div>
+
+            <h3>Facebook</h3>
+
+            <p>Comunidad y noticias</p>
+          </a>
+
+          <!-- X -->
+
+          <a
+            href="#"
+            class="social-card reveal"
+            aria-label="KawsayEc en X"
+            style="
+              text-decoration: none;
+              color: inherit;
+              text-align: center;
+              padding: 2rem 1rem;
+              border-radius: 16px;
+              background: white;
+              transition:
+                transform 0.3s ease,
+                box-shadow 0.3s ease;
+            "
+          >
+            <div
+              style="
+                width: 64px;
+                height: 64px;
+                margin: 0 auto 1rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+            >
+              <svg
+                viewBox="0 0 24 24"
+                width="56"
+                height="56"
+                fill="currentColor"
+                aria-hidden="true"
+              >
+                <path
+                  d="M18.24 2.25h3.68l-8.04 9.19L23.34 21.75h-7.25l-5.68-7.43-6.5 7.43H.23l8.6-9.83L.66 2.25H8.1l5.13 6.78 5.01-6.78Zm-1.29 17.52h2.04L6.99 4.13H4.8l12.15 15.64Z"
+                />
+              </svg>
+            </div>
+
+            <h3>X</h3>
+
+            <p>Noticias y conversación</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+      <div class="container footer-grid">
+        <div>
+          <h3>KAWSAYEC</h3>
+
+          <p>
+            Centro Andino de Capacitación. Formación, saberes y oportunidades
+            para el desarrollo de nuestras comunidades.
+          </p>
+        </div>
+
+        <div>
+          <h4>Navegación</h4>
+
+          <p>
+            <a href="index.html"> ¿Quiénes somos? </a>
+          </p>
+
+          <p>
+            <a href="oferta-academica.html"> Oferta Académica </a>
+          </p>
+
+          <p>
+            <a href="publicaciones-eventos.html"> Publicaciones y eventos </a>
+          </p>
+        </div>
+
+        <div>
+          <h4>Conecta</h4>
+
+          <p>
+            <a href="ecosistema-digital.html"> Ecosistema Digital </a>
+          </p>
+
+          <p>
+            <a href="contactos.html"> Contactos </a>
+          </p>
+        </div>
+      </div>
+
+      <div class="container copyright">
+        © <span id="year"></span>
+        KawsayEc. Todos los derechos reservados.
+      </div>
+    </footer>
+
+    <script src="js.js"></script>
+  </body>
 </html>

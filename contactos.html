@@ -1,94 +1,149 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="KawsayEc - Centro Andino de Capacitación">
-<title>Contactos | KawsayEc</title>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-<header>
-<nav class="navbar container">
-  <a class="logo" href="index.html" aria-label="KawsayEc inicio">
-    <span class="logo-mark">K</span>
-    <span>KAWSAY<small>Centro Andino de Capacitación</small></span>
-  </a>
-  <button class="menu-btn" aria-label="Abrir menú" aria-expanded="false">☰</button>
-  <ul class="nav-links">
-    <li><a href="index.html">¿Quiénes somos?</a></li>
-    <li><a href="oferta-academica.html">Oferta Académica</a></li>
-    <li><a href="publicaciones-eventos.html">Publicaciones y eventos</a></li>
-    <li><a href="ecosistema-digital.html">Ecosistema Digital</a></li>
-    <li><a href="contactos.html">Contactos</a></li>
-  </ul>
-</nav>
-</header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="KawsayEc - Centro Andino de Capacitación"
+    />
+    <title>Contactos | KawsayEc</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar container">
+           <a class="logo" href="index.html" aria-label="KawsayEc inicio">
+    <span style="display:flex; align-items:center; justify-content:center;
+                 width:100px; height:100px;
+                 background:white; border-radius:50%;
+                 overflow:hidden;">
+        <img src="kawsay logo.jpg"
+             alt="Logo KawsayEc"
+             width="90"
+             style="display:block; object-fit:contain;">
+    </span>
+</a>
+          <span>KAWSAY<small>Centro Andino de Capacitación</small></span>
+        </a>
+        <button class="menu-btn" aria-label="Abrir menú" aria-expanded="false">
+          ☰
+        </button>
+        <ul class="nav-links">
+          <li><a href="index.html">¿Quiénes somos?</a></li>
+          <li><a href="oferta-academica.html">Oferta Académica</a></li>
+          <li>
+            <a href="publicaciones-eventos.html">Publicaciones y eventos</a>
+          </li>
+          <li><a href="ecosistema-digital.html">Ecosistema Digital</a></li>
+          <li><a href="contactos.html">Contactos</a></li>
+        </ul>
+      </nav>
+    </header>
 
-<section class="page-hero">
-  <div class="container">
-    <span class="eyebrow">Estamos para ayudarte</span>
-    <h1>Contactos</h1>
-    <p>Escríbenos para conocer nuestros cursos, convocatorias, certificaciones o propuestas de capacitación.</p>
-  </div>
-</section>
-<div class="pattern"></div>
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow">Estamos para ayudarte</span>
+        <h1>Contactos</h1>
+        <p>
+          Escríbenos para conocer nuestros cursos, convocatorias,
+          certificaciones o propuestas de capacitación.
+        </p>
+      </div>
+    </section>
+    <div class="pattern"></div>
 
-<section class="section">
-  <div class="container grid grid-2">
-    <div class="contact-box reveal">
-      <span class="eyebrow">KawsayEc</span>
-      <h2>Conversemos</h2>
-      <p>Completa el formulario o utiliza nuestros canales de contacto. Reemplaza estos datos de demostración por la información oficial del centro.</p>
-      <div class="contact-item"><div>✉</div><div><b>Correo</b>info@kawsayec.ec</div></div>
-      <div class="contact-item"><div>☎</div><div><b>Teléfono</b>+593 000 000 000</div></div>
-      <div class="contact-item"><div>⌖</div><div><b>Ubicación</b>Ecuador</div></div>
-    </div>
+    <section class="section">
+      <div class="container grid grid-2">
+        <div class="contact-box reveal">
+          <span class="eyebrow">KawsayEc</span>
+          <h2>Conversemos</h2>
+          <p>
+            Completa el formulario o utiliza nuestros canales de contacto.
+            Reemplaza estos datos de demostración por la información oficial del
+            centro.
+          </p>
+          <div class="contact-item">
+            <div>✉</div>
+            <div><b>Correo</b>info@kawsayec.ec</div>
+          </div>
+          <div class="contact-item">
+            <div>☎</div>
+            <div><b>Teléfono</b>+593 984408311</div>
+          </div>
+          <div class="contact-item">
+            <div>⌖</div>
+            <div><b>Ubicación</b>Riobamba - Ecuador</div>
+          </div>
+        </div>
 
-    <div class="card reveal">
-      <h2 style="color:var(--navy)">Envíanos un mensaje</h2>
-      <form id="contactForm">
-        <label>Nombre<input required name="name" placeholder="Tu nombre"></label>
-        <label>Correo electrónico<input required type="email" name="email" placeholder="tu@email.com"></label>
-        <label>Interés
-          <select name="interest">
-            <option>Oferta académica</option>
-            <option>Certificación</option>
-            <option>Eventos</option>
-            <option>Capacitación institucional</option>
-            <option>Otro</option>
-          </select>
-        </label>
-        <label>Mensaje<textarea required name="message" placeholder="¿En qué podemos ayudarte?"></textarea></label>
-        <button class="btn btn-primary" type="submit">Enviar mensaje</button>
-        <p id="formStatus" hidden></p>
-      </form>
-    </div>
-  </div>
-</section>
+        <div class="card reveal">
+          <h2 style="color: var(--navy)">Envíanos un mensaje</h2>
+          <form id="contactForm">
+            <label
+              >Nombre<input required name="name" placeholder="Tu nombre"
+            /></label>
+            <label
+              >Correo electrónico<input
+                required
+                type="email"
+                name="email"
+                placeholder="tu@email.com"
+            /></label>
+            <label
+              >Interés
+              <select name="interest">
+                <option>Oferta académica</option>
+                <option>Certificación</option>
+                <option>Eventos</option>
+                <option>Capacitación institucional</option>
+                <option>Otro</option>
+              </select>
+            </label>
+            <label
+              >Mensaje<textarea
+                required
+                name="message"
+                placeholder="¿En qué podemos ayudarte?"
+              ></textarea>
+            </label>
+            <button class="btn btn-primary" type="submit">
+              Enviar mensaje
+            </button>
+            <p id="formStatus" hidden></p>
+          </form>
+        </div>
+      </div>
+    </section>
 
+    <footer>
+      <div class="container footer-grid">
+        <div>
+          <h3>KAWSAYEC</h3>
+          <p>
+            Centro Andino de Capacitación. Formación, saberes y oportunidades
+            para el desarrollo de nuestras comunidades.
+          </p>
+        </div>
+        <div>
+          <h4>Navegación</h4>
+          <p><a href="index.html">¿Quiénes somos?</a></p>
+          <p><a href="oferta-academica.html">Oferta Académica</a></p>
+          <p>
+            <a href="publicaciones-eventos.html">Publicaciones y eventos</a>
+          </p>
+        </div>
+        <div>
+          <h4>Conecta</h4>
+          <p><a href="ecosistema-digital.html">Ecosistema Digital</a></p>
+          <p><a href="contactos.html">Contactos</a></p>
+        </div>
+      </div>
+      <div class="container copyright">
+        © <span id="year"></span> KawsayEc. Todos los derechos reservados.
+      </div>
+    </footer>
 
-<footer>
-  <div class="container footer-grid">
-    <div>
-      <h3>KAWSAYEC</h3>
-      <p>Centro Andino de Capacitación. Formación, saberes y oportunidades para el desarrollo de nuestras comunidades.</p>
-    </div>
-    <div>
-      <h4>Navegación</h4>
-      <p><a href="index.html">¿Quiénes somos?</a></p>
-      <p><a href="oferta-academica.html">Oferta Académica</a></p>
-      <p><a href="publicaciones-eventos.html">Publicaciones y eventos</a></p>
-    </div>
-    <div>
-      <h4>Conecta</h4>
-      <p><a href="ecosistema-digital.html">Ecosistema Digital</a></p>
-      <p><a href="contactos.html">Contactos</a></p>
-    </div>
-  </div>
-  <div class="container copyright">© <span id="year"></span> KawsayEc. Todos los derechos reservados.</div>
-</footer>
-
-<script src="js.js"></script>
-</body>
+    <script src="js.js"></script>
+  </body>
 </html>
